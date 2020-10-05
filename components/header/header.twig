@@ -1,0 +1,5 @@
+{% set attributes = {
+  'class': ['vivek', 'bassam'],
+  'id': 'sabreena'
+  } %}
+<h1 {{ add_attributes(attributes)}} >{{ text | clean_class }}</h1>
